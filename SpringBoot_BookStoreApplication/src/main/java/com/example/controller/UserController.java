@@ -29,9 +29,9 @@ public class UserController {
     public  String test(){
         return "Spring-boot";
     }
-    @GetMapping("/don")
-    public  String don(){
-        return "Pushpak DON!!";
+    @GetMapping("/hello")
+    public  String hello(){
+        return "hello spring boot!!";
     }
 
     @PostMapping("/userRegistration")
